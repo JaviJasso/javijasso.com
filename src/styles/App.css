@@ -1,3 +1,5 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
 body {
   margin: 0
 }
@@ -192,6 +194,32 @@ body {
   height: 60em;
   background-color: RGB(236, 236, 236);
   justify-content: space-around;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    border: solid 1px #555555;
+    margin: 0 auto;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+}
+
+/*.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}*/
+
+.icon i {
+  color: black;
+  font-size: 1em;
 }
 
 #Languages {
