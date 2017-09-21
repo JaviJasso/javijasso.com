@@ -4,21 +4,28 @@ body {
   margin: 0
 }
 
-.intro {
+/*.intro {
   font-size: 1em;
   display: flex;
   flex-direction: row;
   margin: 0;
   padding: 8em 0em 0em 1em;
   color: black;
-  /*position: absolute;*/
   top: -1px;
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
   height: 24em;
   background-color: RGB(236, 236, 236);
   justify-content: space-around;
-}
+}*/
+
+.intro {
+    padding-top: 14em;
+    text-align: center;
+    background: url('../images/pluma.jpg') center center no-repeat;
+    background-size: cover;
+    color: #fff;
+  }
 
 .navbar {
   display: flex;
@@ -168,15 +175,8 @@ body {
   width: 30em;
 }
 
-.portfolio h1 {
-  margin-bottom: .75em;
-  padding: 0;
-  padding-top: .5em;
-}
 
-.portfolio h3 {
-  margin-bottom: 2em;
-}
+
 
 
 
@@ -191,9 +191,17 @@ body {
   top: -1px;
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
-  height: 60em;
+  height: 70em;
   background-color: RGB(236, 236, 236);
   justify-content: space-around;
+}
+
+.skills {
+  justify-content: center;
+  display: flex;
+}
+
+.skillsBody {
 }
 
 .icon {
@@ -207,23 +215,14 @@ body {
     color: black;
 }
 
-/*.fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    transform: translate(0, 0);
-}*/
 
 .icon i {
   color: black;
-  font-size: 1em;
+  font-size: 1.3em;
 }
 
 #Languages {
-  padding-top: 1.75em;
+  padding-top: 8em;
 }
 
 .ach a {
@@ -324,7 +323,7 @@ body {
   }
 
   .intro {
-    height: 30em;
+    height: 50em;
     background-color: RGB(236, 236, 236);
   }
 
@@ -368,27 +367,10 @@ body {
     color: RGB(236, 236, 236);
   }
 
-  .portfolio a {
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 4em 2em 0em 2em;
-    padding-bottom: .5em;
-    opacity: 1;
-  }
 
-/*
-  .portfolio p {
-    width: 16em;
-    display: flex;
-    align-items: center;
-    font-size: 1.5em;
-    font-family: 'Raleway', sans-serif;
-  }*/
 
   .achivements {
-    height: 30em;
+    height: 80em;
     background-color: RGB(236, 236, 236);
   }
 
@@ -449,8 +431,8 @@ body {
 
   .navbar {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    flex-direction: row;
+    align-items:center;
     background-color: transparent;
     width: 100%;
     z-index: 1;
@@ -462,7 +444,7 @@ body {
     text-decoration: none;
     padding: .05em .15em .05em .15em;
     font-size: 1em;
-    background-color: black;
+    background-color: white;
     border: 1px solid black;
     color: #f67052;
     animation: links infinite 10s linear;
@@ -474,19 +456,30 @@ body {
   }
 
   .intro {
-    height: 20em;
+    height: 60em;
     background-color: RGB(236, 236, 236);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .intro h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 3em;
-    padding: .5em 0em 0em 0em;
+    font-size: 2em;
+    padding: .5em 5em 0em 0em;
     margin: 0;
     text-align: center;
   }
 
+  .description p {
+    width: 18em;
+  }
 
+  .section1 {
+    /*writing-mode:;*/
+    text-orientation: right;
+    text-align: center;
+  }
 
   .about {
     display: flex;
@@ -502,33 +495,27 @@ body {
     font-family: 'Raleway', sans-serif;
   }
 
-  .port h1{
-    margin: 0;
-    padding: .5em 0em 0em 0em;
-    font-family: 'Raleway', sans-serif;
-    font-size: 3em;
-    color: RGB(236, 236, 236);
-    text-align: center;
-  }
-
-  .portfolio a {
-    text-decoration: none;
+  .port {
+    height: 60em;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border-bottom: 1px solid RGB(236, 236, 236);
-    margin: 2em 2em 0em 2em;
-    padding-bottom: .5em;
-    opacity: 1;
+    align-items: flex-start;
   }
 
-  .portfolio p {
-    width: 12em;
-    display: flex;
-    align-items: center;
-    font-size: 1.5em;
+  .port h1{
     color: RGB(236, 236, 236);
+    text-align: center;
     font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    padding: .5em 5em 0em 0em;
+    margin: 0;
+  }
+
+
+  .section2 {
+    /*writing-mode:;*/
+    text-orientation: right;
+    text-align: center;
   }
 
   .achivements {

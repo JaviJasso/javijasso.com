@@ -6,16 +6,16 @@ class Portfolio extends Component {
 
     return (
       <div className='port' id='Portfolio'>
-        <div className='section2'>
+        {/* <div className='section2'>
           <p>02 - Portfolio</p>
-        </div>
+        </div> */}
         <div className='about'>
            <img src={Photo} alt="profile"/>
          </div>
-        <div className="portfolio">
+        <div className="description">
           <h1>JAX STUDIO</h1>
-          <h3> BRANDGING, WEB DESIGN</h3>
-          <span>This is  Jax Studio - Brand Identity. Jax Studio focus container homes and sustainability. </span>
+          <h2> BRANDGING, WEB DESIGN</h2>
+          <p>This is  Jax Studio - Brand Identity. Jax Studio focus container homes and sustainability. </p>
        </div>
 
       </div>
