@@ -9,12 +9,12 @@ class Portfolio extends Component {
         {/* <div className='section2'>
           <p>02 - Portfolio</p>
         </div> */}
-        <div className='about'>
+        {/* <div className='about'>
            <img src={Photo} alt="profile"/>
-         </div>
-        <div className="description">
+         </div> */}
+        <div className="description2">
           <h1>JAX STUDIO</h1>
-          <h2> BRANDGING, WEB DESIGN</h2>
+          <h2> BRANDING, WEB DESIGN</h2>
           <p>This is  Jax Studio - Brand Identity. Jax Studio focus container homes and sustainability. </p>
        </div>
 

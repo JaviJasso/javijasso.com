@@ -1,36 +1,15 @@
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 
 body {
-  margin: 0
-}
-
-/*.intro {
-  font-size: 1em;
-  display: flex;
-  flex-direction: row;
   margin: 0;
-  padding: 8em 0em 0em 1em;
-  color: black;
-  top: -1px;
   font-family: 'Raleway', sans-serif;
-  font-weight: 100;
-  height: 24em;
-  background-color: RGB(236, 236, 236);
-  justify-content: space-around;
-}*/
 
-.intro {
-    padding-top: 14em;
-    text-align: center;
-    background: url('../images/pluma.jpg') center center no-repeat;
-    background-size: cover;
-    color: #fff;
-  }
+}
 
 .navbar {
   display: flex;
   justify-content:space-around;
-  background-color: RGB(236, 236, 236);
+  background-color: rgba(236, 236, 236, 0.79);
   width: 100%;
   z-index: 1;
   position: fixed;
@@ -73,6 +52,16 @@ body {
   }
 }
 
+.intro {
+  height:33em;
+  padding-top: 14em;
+  text-align: center;
+  background: url('../images/world.jpg') center center no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-shadow: 1px 1px black;
+
+}
 .intro h1 {
   margin: 0;
   font-family: 'Raleway', sans-serif;
@@ -80,24 +69,50 @@ body {
   padding: 1em 0em 0em .75em;
 }
 
-.section1 {
+/*.section1 {
   writing-mode: vertical-rl;
   text-orientation: upright;
   text-align: center;
-}
+}*/
 
 .description {
-  width: 30em;
+  /*width: 100%;*/
+  color: white;
+  height: 26em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  margin: 0em 3em 2em 3em;
+  border-radius: 15px;
 }
 
 .description h1 {
-  margin-bottom: .75em;
+  margin-top: 0;
+  margin-bottom: 22px;
   padding: 0;
-  padding-top: .5em;
+  font-weight: 600;
+  color: white;
+  opacity: 1;
+  font-size: 6em;
+  letter-spacing: 12px;
+
 }
 
 .description h2 {
   margin-bottom: 2em;
+  opacity: 1;
+  font-weight: 600;
+  font-size: 2.2em;
+  letter-spacing: 1px;
+}
+
+.description p {
+  width: 30em;
+  font-size: 25px;
+  font-weight: 600;
+  opacity: 1;
 }
 
 
@@ -122,30 +137,24 @@ body {
   flex-direction: row;
   margin: 0;
   padding: 3em 0em 3em 1.5em;
-  color: RGB(236, 236, 236);
+  color: RGB(90, 90, 88);
   /*position: absolute;*/
   top: -1px;
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
-  height: 24em;
-  background-color: RGB(90, 90, 88);
+  height: 42em;
+  background-color: RGB(255, 255, 255);
   justify-content: space-around;
   align-items: center;
+  letter-spacing: 2px;
+
 }
-
-
 
 .port h1 {
   margin: 0;
   font-family: 'Raleway', sans-serif;
   font-size: 3em;
   padding: 1em 0em 0em .75em;
-}
-
-.section2 {
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  text-align: center;
 }
 
 .port h3{
@@ -156,34 +165,42 @@ body {
   color: RGB(244, 244, 244);
 }
 
-.portfolio a {
-  text-decoration: none;
+.description2 {
+  width: 100%;
+  color: black;
+  height: 30em;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 4em 2em 0em 2em;
-  opacity: .5;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.section2 {
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  text-align: center;
+.description2 h1 {
+  margin-top: 0;
+  margin-bottom: 22px;
+  padding: 0;
+  font-weight: 600;
 }
 
-.portfolio {
+.description2 h2 {
+  margin-bottom: 2em;
+
+  font-weight: 600;
+
+}
+
+.description2 p {
   width: 30em;
+  font-size: 25px;
+  font-weight: 600;
 }
-
-
-
 
 
 
 .achivements {
   font-size: 1em;
   display: flex;
-  flex-direction: row;
+  flex-direction:row;
   align-items: flex-start;
   margin: 0;
   padding: 4em 0em 0em 1em;
@@ -191,9 +208,10 @@ body {
   top: -1px;
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
-  height: 70em;
-  background-color: RGB(236, 236, 236);
+  height: 65em;
+  background-color: RGB(238, 238, 238);
   justify-content: space-around;
+  letter-spacing: 4px;
 }
 
 .skills {
@@ -201,7 +219,14 @@ body {
   display: flex;
 }
 
-.skillsBody {
+.skillsBody h2 {
+  justify-content: center;
+  display: flex;
+}
+
+.skillsBody p {
+  justify-content: center;
+  display: flex;
 }
 
 .icon {
@@ -211,7 +236,7 @@ body {
     margin: 0 auto;
     border-radius: 20px;
     text-align: center;
-    line-height: 40px;
+    line-height: 45px;
     color: black;
 }
 
@@ -219,6 +244,9 @@ body {
 .icon i {
   color: black;
   font-size: 1.3em;
+  margin: 2px;
+  padding: 0;
+  padding-left: 5px;
 }
 
 #Languages {
@@ -232,13 +260,14 @@ body {
   justify-content: space-around;
   margin: 4em 2em 0em 2em;
   opacity: .5;
+  /*flex-wrap: wrap;*/
 }
 
 #line {
   display: flex;
   justify-content: center;
   background-color: green;
-  width:3em;
+  width: 50%;
   height: 3px;
   margin: 1em 0em 0em 3em;
   /*border-bottom: 1px solid green;
@@ -246,18 +275,22 @@ body {
 }
 
 .contact {
-  height: 12em;
+  height: 20em;
   background-color: RGB(90, 90, 88);
   color: RGB(236, 236, 236);
   font-family: 'Raleway', sans-serif;
+
 }
 
 .contact p {
+  height: 3em;
   margin: 0;
-  padding: 1em 0em 2em 1em;
+  padding: 2em 0em 2em 1em;
   font-family: 'Raleway', sans-serif;
   font-weight:500;
   font-size: 2.5em;
+  display: flex;
+  justify-content: center;
 }
 
 .link {

@@ -50,9 +50,9 @@ class Achivements extends Component {
             <br></br>
           </div>
         </div>
-        <div className='about'>
+        {/* <div className='about'>
             <img src={Photo} alt="profile"/>
-        </div>
+        </div> */}
       </div>
     )
   }
