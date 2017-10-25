@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Linkedin from '../images/linkedin.png';
-import Email from '../images/email.png';
+// import Linkedin from '../images/linkedin.png';
+// import Email from '../images/email.png';
 
 class Contact extends Component {
   render() {
@@ -10,15 +10,15 @@ class Contact extends Component {
          <div className='contact'>
           <div className='link'>
             <a href="https://www.linkedin.com/in/javi-jasso-81a52948/" target="_blank">
-              <img src={ Linkedin } alt="Linkedin"/>
+              <i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
               <span>LinkedIn</span>
             </a>
             <a href="https://github.com/JaviJasso" target="_blank">
-              <i className="devicon-github-plain" />
+              <i className="fa fa-github fa-2x" aria-hidden="true"></i>
               <span>GitHub</span>
             </a>
             <a href="mailto:jjasso1@asu.edu">
-              <img src={ Email } alt="Email"/>
+              <i className="fa fa-envelope fa-2x" aria-hidden="true"></i>
               <span>Email</span>
             </a>
           </div>
