@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-// import Linkedin from '../images/linkedin.png';
-// import Email from '../images/email.png';
 
 class Contact extends Component {
   render() {

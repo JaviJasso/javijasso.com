@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 class Achivements extends Component {
   render() {
     return (

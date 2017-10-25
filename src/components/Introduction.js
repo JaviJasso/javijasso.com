@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Photo from '../images/Javi-Dev.jpg';
 
 class Introduction extends Component {
   render() {
