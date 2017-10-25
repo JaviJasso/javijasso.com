@@ -23,8 +23,8 @@ class Achivements extends Component {
               <i className="fa fa-building" aria-hidden=""></i>
             </div>
             <br></br>
-            <h2>DEVOPS</h2>
-            <p>Git, GitHub, MySQL</p>
+            <h2>DEV - OPS</h2>
+            <p>Git, GitHub</p>
             <br></br>
             <div className='icon'>
               <i className="fa fa-language" aria-hidden=""></i>

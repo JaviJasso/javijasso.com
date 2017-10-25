@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Photo from '../images/container.jpg'
 import Calculator from '../images/calculator.png'
 import Itunes from '../images/itunesplaylist.png'
+import Life from '../images/life-frame.png'
+import Play from '../images/train.jpg'
 
 
 class Portfolio extends Component {
@@ -16,15 +18,20 @@ class Portfolio extends Component {
        </div>
 
        <div className="portfolio">
+         {/* <p>Life-Frame</p> */}
         <a href="https://lifeframe.surge.sh/">
+          <img className="itunes" src={Life} />
+        </a>
+        {/* <p>Calculator</p> */}
+        <a href="http://calculator-javi.surge.sh/">
           <img className="calculator" src={Calculator} />
         </a>
-        <a href="">
-          <img className="calculator" src={Calculator} />
+        {/* <p>Play-List</p> */}
+        <a href="http://playlist-jj.surge.sh/">
+          <img className="calculator" src={Play} />
         </a>
-        <a href="">
-          <img className="calculator" src={Calculator} />
-        </a>
+        {/* <p>Tunes</p> */}
+
         <a href="http://ocho-tunes.surge.sh/">
           <img className="itunes" src={Itunes} />
         </a>

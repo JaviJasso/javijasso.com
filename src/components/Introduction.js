@@ -6,7 +6,7 @@ class Introduction extends Component {
       <div className='intro' id='Introduction'>
         <div className='description'>
           <h1> JAVI JASSO</h1>
-          <h2> Developer // World Traveler</h2>
+          <h2> Developer // Traveler</h2>
         </div>
       </div>
     )
