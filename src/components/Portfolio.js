@@ -13,7 +13,7 @@ class Portfolio extends Component {
       <div className='port' id='Portfolio'>
         <div className="description2">
           <h1> BRANDING // WEB DESIGN</h1>
-          <p>Currently located in Saint Petersburg, Florida, I am proud to represent my Mexican heritage as well as being passionate about people, personal development and sustainable living.</p>
+          <p>Currently located in Saint Petersburg, Florida, I am happy with my journey as well as being passionate about people, personal development and sustainable living.</p>
           <h1 id="project-title"> Projects </h1>
        </div>
 
